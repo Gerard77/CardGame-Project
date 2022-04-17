@@ -16,8 +16,6 @@ UNO Cardgame created in Node.js for the Full-Stack Web Technologies postgraduate
 - fisherYatesShuffle.js is the array shuffling method I found recommended at Stackoverflow
 ## Files in /public:
 - only contains cardGameUNO.js as the folder /public is where I stated in webpack.config.js to save the bundle
-## Files in /node_modules:
-- contains installed packages in the project using npm install
 
 
 
