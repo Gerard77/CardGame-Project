@@ -16,6 +16,12 @@ UNO Cardgame created in Node.js for the Full-Stack Web Technologies postgraduate
 - fisherYatesShuffle.js is the array shuffling method I found recommended at Stackoverflow
 ## Files in /public:
 - only contains cardGameUNO.js as the folder /public is where I stated in webpack.config.js to save the bundle
+## Considerations:
+- Following the rules of Original UNO (https://www.unorules.com/) there are some considerations. For example you cannot play two cards on the same turn. Besides, some not fundamental rules have been altered as for a lack of more development time (other areas had to be prioritized):
+- The "UNO!!" shout is automatically generated when a player has only 1 card in hand
+- If the first card is not a numbered card it is shifted to the end of the Draw Pile until the first card is a numbered card, instead of shuffling all the cards again.
+- The "play rounds until 500 points" rule has not been implemented. When the game ends you just can execute the game again (I personally have never used the 500 points rule).
+- All the other rules of Original UNO have been implemented as they are!
 
 
 
